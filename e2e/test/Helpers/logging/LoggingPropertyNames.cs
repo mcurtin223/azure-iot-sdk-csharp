@@ -25,5 +25,6 @@ namespace Microsoft.Azure.Devices.E2ETests
         public const string TestFailureReason = "TestFailureReason";
         public const string OsInfo = "OsInfo";
         public const string TargetBranch = "TargetBranch";
+        public const string AgentName = "AgentName";
     }
 }

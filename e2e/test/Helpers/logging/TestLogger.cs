@@ -53,6 +53,7 @@ namespace Microsoft.Azure.Devices.E2ETests
                     { LoggingPropertyNames.BuildId, Environment.GetEnvironmentVariable("BUILD_BUILDID") },
                     { LoggingPropertyNames.Attempt, Environment.GetEnvironmentVariable("SYSTEM_JOBATTEMPT") },
                     { LoggingPropertyNames.TargetBranch, Environment.GetEnvironmentVariable("TARGET_BRANCH") },
+                    { LoggingPropertyNames.AgentName, Environment.GetEnvironmentVariable("AGENT_NAME") },
                 };
             }
         }
